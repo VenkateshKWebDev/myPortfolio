@@ -32,6 +32,7 @@ const About = () => {
           bring my creativity, enthusiasm, and dedication to any web development
           projects that come my way. Let's build the future together!
         </p>
+        <br />
       </div>
     </div>
   );
