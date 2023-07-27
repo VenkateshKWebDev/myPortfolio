@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/venkatesh-kothem-847a2626a",
       style: " rounded-tr-md",
     },
     {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://Github.com",
+      href: "https://github.com/VenkateshKWebDev",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/TCS NQT ‘23 Arsh Sheet.pdf",
+      href: "/K.VENKATESH RESUME.pdf",
       style: " rounded-br-md",
       download: true,
     },

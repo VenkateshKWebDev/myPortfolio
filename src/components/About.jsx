@@ -13,20 +13,24 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
-          quod praesentium! Hic ullam numquam, nemo veritatis animi perferendis
-          quaerat, velit qui dicta aliquam sed illo amet eius tempora laudantium
-          cupiditate optio omnis neque, ad eveniet asperiores non! Velit atque
-          nam eos et illo necessitatibus fugit impedit. Tempore qui laudantium
-          iusto.
+          Hello there! I am a passionate and ambitious web developer, eager to
+          embark on an exciting journey in the world of web development. As a
+          fresher in this field, I am brimming with creativity and a strong
+          desire to learn and grow. I have always been fascinated by technology
+          and its power to bring ideas to life. During my academic journey and
+          personal projects, I have developed a solid foundation in HTML, CSS,
+          and JavaScript, and I am enthusiastic about exploring new frameworks
+          and technologies to expand my skill set.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit
-          explicabo illo ut blanditiis minima dolorem ab, harum numquam at
-          soluta quibusdam sint neque adipisci culpa nemo ex temporibus quas
-          eius odio nihil! Itaque ab assumenda quibusdam, commodi, eos facilis
-          pariatur odit consectetur doloremque, ipsum incidunt id at modi odio.
+          One of my key strengths is my adaptability and willingness to take on
+          challenges. I am eager to work collaboratively with experienced
+          developers and designers to gain valuable insights and contribute my
+          ideas effectively. Thank you for taking the time to get to know me. I
+          am thrilled to take my first steps into the professional realm and
+          bring my creativity, enthusiasm, and dedication to any web development
+          projects that come my way. Let's build the future together!
         </p>
       </div>
     </div>
