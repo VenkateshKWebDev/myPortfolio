@@ -1,9 +1,10 @@
 import React from "react";
 import Example from "../assets/616e84980a85967c49320f81_Frame-155.png";
+import TodoImage from "../assets/todoList.png";
 
 const Portifolio = () => {
   const portifolio = [
-    { id: 1, src: Example },
+    { id: 1, src: TodoImage },
     { id: 2, src: Example },
     { id: 3, src: Example },
     { id: 4, src: Example },
@@ -13,9 +14,9 @@ const Portifolio = () => {
   return (
     <div
       name="Portfolio"
-      className="text-white w-full  bg-gradient-to-b from-black via-black to-gray-800 md:h-full "
+      className="text-white py-8 w-full h-full bg-gradient-to-b from-black via-black to-gray-800 md:h-full "
     >
-      <div className="max-w-screen-lg w-full p-4 flex flex-col justify-center mx-auto">
+      <div className="max-w-screen-lg w-full h-full px-4 flex flex-col justify-center mx-auto">
         <div className="pb-8">
           <p className=" font-bold text-4xl inline border-b-4 border-gray-500">
             Portfolio
@@ -29,7 +30,7 @@ const Portifolio = () => {
                 key={id}
                 src={src}
                 alt="myproject"
-                className=" rounded-md duration-300 hover:scale-105"
+                className=" h-2/3 w-full rounded-md duration-300 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200 ">
