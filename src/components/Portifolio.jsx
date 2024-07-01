@@ -1,15 +1,12 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
 import React from "react";
 import Example from "../assets/616e84980a85967c49320f81_Frame-155.png";
 import TodoImage from "../assets/todoList.png";
-
 const Portifolio = () => {
   const portifolio = [
-    { id: 1, src: TodoImage },
+    { id: 1, src: TodoImage,resource:"https://github.com/VenkateshKWebDev/CRUD-APP-MERN-1/",name:"CRUD-APP"},
     { id: 2, src: Example },
-    { id: 3, src: Example },
-    { id: 4, src: Example },
-    { id: 5, src: Example },
-    { id: 6, src: Example },
+    { id: 3, src: Example }
   ];
   return (
     <div
@@ -24,7 +21,7 @@ const Portifolio = () => {
           <p className="py-6">Check My Projects!</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portifolio.map(({ id, src }) => (
+          {portifolio.map(({ id, src,resource,name }) => (
             <div className="shadow-md shadow-gray-600 rounded-lg ">
               <img
                 key={id}
@@ -32,13 +29,22 @@ const Portifolio = () => {
                 alt="myproject"
                 className=" h-2/3 w-full rounded-md duration-300 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200 ">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200 ">
-                  Code
-                </button>
+              <div className="flex items-center ml-11 justify-center">
+                <div>
+                  <h2>{name}</h2>
+                </div>
+                <div className="flex items-center m-2">
+                  <div>
+                  <h2 className="text-green-500 font-semibold">Code</h2>
+                  </div>
+                  <div className="ml-2">
+                <a href={resource} target="__blank" className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200 text-blue-700 ">
+                 <FaExternalLinkAlt />
+                </a>
+
+                  </div>
+                
+                  </div>
               </div>
             </div>
           ))}
