@@ -15,9 +15,12 @@ const Home = () => {
             I'm a Driven Dev Venkatesh
           </h2>
           <p className="text-gray-500 py-4 max-w-md ">
-            I am a fresher just Graduated in 2023, And I am quite Interest In
-            Web Development and I am learning Front-end languages from past 3
-            Months.
+            Hi, I'm Venkatesh, a passionate and dedicated tech enthusiast with a strong foundation in computer science and a keen interest in software development.
+            I recently graduated with a degree in Computer Science and am actively seeking opportunities to grow as a full-stack or backend developer. 
+            I have hands-on experience with Node.js, MongoDB, and React, and I enjoy building clean, efficient, and user-friendly web applications. 
+            I’m a quick learner who loves solving problems and constantly improving my skills through real-world projects and continuous learning.
+            Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, and staying up-to-date with industry trends.
+            My goal is to work in a dynamic environment where I can contribute to impactful solutions and grow as a professional.
           </p>
           <div>
             <Link
